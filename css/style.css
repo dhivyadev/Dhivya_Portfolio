@@ -9842,4 +9842,14 @@ textarea.form-control {
     width:auto;
     height:10vh;
   }
-  
+  .exp_content {
+    list-style-type: none;
+  }
+  .exp_content li::before {
+    content: "\2022";  /* Bullet character */
+    color: #1affff;     /* Define your desired color */
+    font-weight: bold;  /* Optional: Make the bullet bold */
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
